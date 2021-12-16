@@ -26,8 +26,8 @@ class _HomepageState extends State<Homepage> {
                 children: [
                   Container(
                     margin: EdgeInsets.only(
-                      top: 32.0,
-                      bottom: 32.0,
+                      top: 70.0,
+                      bottom: 60.0,
                     ),
                     child: Image(
                       image: AssetImage('assets/images/logo.png'),
@@ -87,8 +87,8 @@ class _HomepageState extends State<Homepage> {
                     });
                   },
                   child: Container(
-                    width: 60.0,
-                    height: 60.0,
+                    width: 70.0,
+                    height: 70.0,
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                           colors: [Color(0xFF7349FE), Color(0xFF643FDB)],
